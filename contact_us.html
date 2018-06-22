@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="zh-CN" xml:lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>DHP</title>
+
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body class="bg">
+<div id="main">
+    <div id="header">
+        <div class="header_a">
+            <div class="menu">
+                <ul class="inner">
+                    <li><a class="index1" href="index.html" title=" About Us">About Us</a></li>
+                    <li><a class="index3" href="employees.html" title="Our Team">Our Team</a></li>
+                    <li onmouseover="showSubLevel(this)" onmouseout="hideSubLevel(this)"><a class="index2"
+                                                                                            href="products.html"
+                                                                                            title="Products">Products</a>
+                        <ul class="deploy">
+                            <ul>
+                                <li><a href="dogsupplies.html">Dog Supplies </a></li>
+                                <span class="sep">|</span>
+                                <li><a href="catsupplies.html">Cat Supplies</a></li>
+                                <span class="sep">|</span>
+                                <li><a href="fishsupplies.html">Snake Supplies</a></li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li><a class="index4" href="policies.html" title="Policies">Policies</a></li>
+                    <li><a class="index5" href="contact_us.html" title="Contact us">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sea clearfix">
+            <form action="#" name="search">
+                <table border="0" cellpadding="0" cellspacing="0" class="tab_search">
+                    <tr>
+                        <td>
+                            <input type="text" name="q" title="Search" class="searchinput" id="searchinput"
+                                   onkeydown="if (event.keyCode==13) {}" onblur="if(this.value=='')value='- search -';"
+                                   onfocus="if(this.value=='- Search -')value='';" value="- Search -" size="10"/>
+                        </td>
+                        <td>
+                            <input type="image" width="21" height="17" class="searchaction"
+                                   onclick="if(document.forms['search'].searchinput.value=='- Search Products -')document.forms['search'].searchinput.value='';"
+                                   alt="Search" src="images/search.jpg" border="0" hspace="2"/>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div id="cent3">
+        <div>
+            <h2>Contact us</h2>
+            <iframe src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25207.671309513466!2d144.9736116014201!3d-37.83784771119515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6682f2586859b%3A0x5045675218ce880!2sSouth+Yarra+VIC+3141!5e0!3m2!1sen!2sau!4v1527079915079 " width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <br>
+        <div style="margin: 10px 20px;line-height: 30px;">
+            <p>Postal Address: No.23, Zhanzhan Road, Heping District, Shenyang City, Liaoning Province (oblique back of Huangshi Square Old North Station)</p>
+            <p>Phone: 024-22525120</p>
+            <p>Fax: 024-22525120 </p>
+            <p>E-mail: 22525120@qq.com </p>
+            <p>Regional Offices: No.1-437, Hengda Road, Xinnan District, Shenyang City, Liaoning Province, China</p>
+            <p>47-1-3, Shenliao East Road, Tiexi District, Shenyang City, Liaoning Province (under the Hongfa International Building)</p>
+            <p>Phone: 024-25913737 </p>
+            <p>Fax: 25913737</p>
+            <p>E-mail: 25913737@qq.com</p>
+            <p><a href="https://www.facebook.com/Avatar">https://www.facebook.com/Avatar</a></p>
+        </div>
+
+    </div>
+</div>
+<script language="javascript" type="text/javascript">
+    function showSubLevel(Obj) {
+        Obj.className = "hover";
+    }
+
+    function hideSubLevel(Obj) {
+        Obj.className = "";
+    }
+</script>
+<script type="text/javascript">
+    <!--
+    var speed = 20;
+    var tab = document.getElementById("demo");
+    var tab1 = document.getElementById("demo1");
+    var tab2 = document.getElementById("demo2");
+    tab2.innerHTML = tab1.innerHTML;
+
+    function Marquee() {
+        if (tab2.offsetWidth - tab.scrollLeft <= 0)
+            tab.scrollLeft -= tab1.offsetWidth
+        else {
+            tab.scrollLeft++;
+        }
+    }
+
+    var MyMar = setInterval(Marquee, speed);
+    tab.onmouseover = function () {
+        clearInterval(MyMar)
+    };
+    tab.onmouseout = function () {
+        MyMar = setInterval(Marquee, speed)
+    };
+    -->
+</script>
+
+</body>
+</html>

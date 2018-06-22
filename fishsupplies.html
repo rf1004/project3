@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="zh-CN" xml:lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DHP</title>
+
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+</head>  
+
+<body class="bg">
+<div id="main">
+    <div id="header">
+    <div class="header_a">
+    <div class="menu">
+		<ul class="inner">
+			<li><a class="index1" href="index.html" title=" About Us">About Us</a></li>
+			<li><a class="index3" href="employees.html" title="Our Team">Our Team</a></li>
+			<li onmouseover="showSubLevel(this)" onmouseout="hideSubLevel(this)"><a class="index2" href="products.html" title="Products">Products</a>
+				<ul class="deploy">
+					<ul>
+						<li><a href="dogsupplies.html">Dog Supplies </a></li>
+						<span class="sep">|</span>
+						<li><a href="catsupplies.html">Cat Supplies</a></li>
+						<span class="sep">|</span>
+						<li><a href="fishsupplies.html">Snake Supplies</a></li>
+					</ul>
+				</ul>
+			</li>
+			<li><a class="index4" href="policies.html" title="Policies">Policies</a></li>
+			<li><a class="index5" href="contact_us.html" title="Contact us">Contact us</a></li>
+		</ul>
+        </div>
+        </div>
+        <div class="sea clearfix">
+        <form action="#" name="search">
+<table border="0" cellpadding="0" cellspacing="0" class="tab_search">
+	<tr>
+		<td>
+			<input type="text" name="q" title="Search" class="searchinput" id="searchinput" onkeydown="if (event.keyCode==13) {}" onblur="if(this.value=='')value='- search -';" onfocus="if(this.value=='- search -')value='';" value="- search -" size="10"/>
+		</td>
+		<td>
+			<input type="image" width="21" height="17" class="searchaction" onclick="if(document.forms['search'].searchinput.value=='- Search Products -')document.forms['search'].searchinput.value='';" alt="Search" src="images/search.jpg" border="0" hspace="2"/>
+		</td>
+	</tr>
+</table>
+</form>
+        </div>
+        </div>
+            <div id="cent2">
+            <div class="product_list_info"> 
+				  <div><img class="product_img" src="images/w1.jpg" width="164" height="124" alt="" data-pinit="registered"></div>
+				  <ul><li class="product_name"></li>
+				  <li><ul class="product_number">01</ul></li>
+			  </ul>
+				  </div> 
+                  
+                  <div class="product_list_info" style="margin-left: 1px;"> 
+				  <div><img class="product_img" src="images/w2.jpg" width="164" height="124" alt="" data-pinit="registered"/></div>
+				  <ul><li class="product_name"></li>
+				  <li><ul class="product_number">02</ul></li>
+				  </ul>
+				  </div> 
+                  
+                  <div><img src="images/line1.jpg" width="1024" height="1" /></div>
+                  
+                   <div class="product_list_info"> 
+				  <div><img class="product_img" src="images/w3.jpg" width="164" height="124" alt="" data-pinit="registered"></div>
+				  <ul><li class="product_name"></li>
+				  <li><ul class="product_number">03</ul></li>
+				  </ul>
+				  </div> 
+                  
+                  <div class="product_list_info" style="margin-left: 1px;"> 
+				  <div><img class="product_img" src="images/w4.jpg" width="164" height="124" alt="" data-pinit="registered"></div>
+				  <ul><li class="product_name"></li>
+				  <li><ul class="product_number">04</ul></li>
+				  </ul>
+				  </div> 
+                  
+                  <div><img src="images/line1.jpg" width="1024" height="1" /></div>
+                  
+                  <div class="product_list_info"> 
+				  <div><img class="product_img" src="images/w5.jpg" width="164" height="124" alt="" data-pinit="registered"></div>
+				  <ul><li class="product_name"></li>
+				  <li><ul class="product_number">05</ul></li>
+				  </ul>
+				  </div> 
+                  
+                  <div class="product_list_info" style="margin-left: 1px;"> 
+				  <div><img class="product_img" src="images/w6.jpg" width="164" height="124" alt="" data-pinit="registered"></div>
+				  <ul><li class="product_name"></li>
+				  <li><ul class="product_number">06</ul></li>
+				  </ul>
+				  </div> 
+                  
+				  </div>
+
+</div>
+<script language="javascript" type="text/javascript">
+	function showSubLevel(Obj){
+		Obj.className="hover";
+	}
+	function hideSubLevel(Obj){
+		Obj.className="";
+	}
+</script>
+<script>
+<!--
+var speed=20;
+var tab=document.getElementById("demo");
+var tab1=document.getElementById("demo1");
+var tab2=document.getElementById("demo2");
+tab2.innerHTML=tab1.innerHTML;
+function Marquee(){
+if(tab2.offsetWidth-tab.scrollLeft<=0)
+tab.scrollLeft-=tab1.offsetWidth
+else{
+tab.scrollLeft++;
+}
+}
+var MyMar=setInterval(Marquee,speed);
+tab.onmouseover=function() {clearInterval(MyMar)};
+tab.onmouseout=function() {MyMar=setInterval(Marquee,speed)};
+-->
+</script>    
+</body>
+</html>
